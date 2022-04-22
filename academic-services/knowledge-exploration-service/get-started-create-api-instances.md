@@ -172,7 +172,7 @@ Now that the MAKES hosting Virtual Machine Image is created, you are ready to us
 
     | Token to relpace | Value |
     | --------| ----- |
-    | <makes_instance_host_name> | The host name for your service. An Azure Resource Group, Virtual Machine Scale Set, and other related Azure resources will be created using the hostname. The hostname will also be the host name of the server where your MAKES deployment will be hosted.  Ex: If you used 'contosomakes', your MAKES API will be hosted at http://contosomakes.westus.cloudapp.azure.net. |    
+    | <makes_instance_host_name> | The host name for your service. An Azure Resource Group, Virtual Machine Scale Set, and other related Azure resources will be created using the hostname. The hostname will also be the host name of the server where your MAKES deployment will be hosted.  Ex: If you used 'contosomakes', your MAKES API will be hosted at `http://contosomakes.westus.cloudapp.azure.net.` |    
     | <makes_storage_account_name> | The name of the storage account containing MAKES releases. |
     | <makes_release_version> | The MAKES release you would like to deploy. |
     | <id_from_previous_command_output> | The id you copied from the output of the previous command. |
